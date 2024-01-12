@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  // background-color: $color-secondary;
+}
+
+body {
+  background-color: $color-primary;
+}
+
+.container-404 {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  border: none;
+  font-size: 24px;
+  width: 300px;
+  border-radius: 15px;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    outline: solid 2px black;
+  }
+}

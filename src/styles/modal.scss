@@ -1,0 +1,46 @@
+@import "_variables.scss";
+
+.modal-content {
+  padding: 20px;
+  position: absolute;
+  background-color: $color-secondary;
+  width: 25%;
+  max-height: 400px;
+  border-radius: 15px;
+  border: 1px solid white;
+  .close-button {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+      &:focus {
+        outline: none;
+      }
+    }
+    .div-button {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      button {
+        width: 50%;
+        border-radius: 15px;
+        border: none;
+        &:hover {
+          cursor: pointer;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
